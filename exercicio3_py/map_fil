@@ -1,0 +1,7 @@
+def filtrar_e_transformar(numeros):
+    return [numero for numero in numeros if numero > 20 * 2]
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+resultado = filtrar_e_transformar(numeros)
+
+print(resultado)
